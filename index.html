@@ -170,10 +170,13 @@
 
   /* mobile overrides */
   @media (max-width: 768px) {
-    .carousel-stage { height: 360px; }
-    .cphone.active  { width: 190px; }
-    .cphone.left    { width: 140px; transform: translateX(-170px) scale(0.88); }
-    .cphone.right   { width: 140px; transform: translateX(170px)  scale(0.88); }
+    .carousel-stage { height: 440px; }
+    .cphone.active  { width: 170px; }
+    .cphone.left    { width: 120px; transform: translateX(-150px) scale(0.88); }
+    .cphone.right   { width: 120px; transform: translateX(150px)  scale(0.88); }
+    .carousel-btn   { width: 36px; height: 36px; font-size: 15px; }
+    .carousel-btn.prev { left: 8px; }
+    .carousel-btn.next { right: 8px; }
   }
 
   /* STATS */
@@ -239,7 +242,12 @@
     nav { padding: 16px 20px; }
     .nav-right .nav-link { display: none; }
     .nova-inner { grid-template-columns: 1fr; padding: 28px 20px; gap: 28px; }
-    .grid { grid-template-columns: 1fr; }
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .fcard { padding: 18px; }
+    .fcard-title { font-size: 14px; }
+    .fcard-desc { font-size: 12px; }
+    .fcard-emoji { font-size: 24px; margin-bottom: 10px; }
+    .fcard-icon { width: 36px; height: 36px; margin-bottom: 10px; }
     .stats-strip { margin: 0 16px 60px; }
   }
 </style>
