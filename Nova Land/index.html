@@ -113,6 +113,9 @@
   .insta-link:hover { color: var(--white); }
   .footer-copy { margin-top: 40px; color: var(--gray); font-size: 12px; font-weight: 400; }
 
+  .screen-thumb { transition: transform 0.2s, box-shadow 0.2s; }
+  .screen-thumb:hover { transform: translateY(-6px) scale(1.03); box-shadow: 0 20px 60px rgba(124,58,237,0.3) !important; }
+
   @keyframes fadeUp { from{opacity:0;transform:translateY(28px);}to{opacity:1;transform:translateY(0);} }
 
   @media (max-width: 768px) {
@@ -153,8 +156,8 @@
   </div>
   <div class="phones-wrap">
     <div class="phone side"><img src="screen3.png" alt="Nova Chat"/></div>
-    <div class="phone main"><img src="screen1.png" alt="NovaFit Home"/></div>
-    <div class="phone side"><img src="screen2.png" alt="My Plan"/></div>
+    <div class="phone main"><img src="screen-home.png" alt="NovaFit Home"/></div>
+    <div class="phone side"><img src="screen-complete.png" alt="Workout Complete"/></div>
   </div>
 </div>
 
@@ -252,11 +255,32 @@
 <div class="section" style="padding-top:0; text-align:center;">
   <span class="tag" style="display:block; text-align:center;">Inside the app</span>
   <h2 class="section-h">Every screen,<br/>built with care.</h2>
-  <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap; margin-top:40px;">
-    <div class="phone" style="width:min(175px,38vw); border-radius:32px;"><img src="screen4.png" alt="Profile" style="width:100%;display:block;"/></div>
-    <div class="phone" style="width:min(175px,38vw); border-radius:32px;"><img src="screen5.png" alt="Nutrition" style="width:100%;display:block;"/></div>
+  <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap; margin-top:40px;" id="screens-row">
+    <div class="phone screen-thumb" style="width:min(150px,30vw); border-radius:28px; cursor:pointer;" onclick="openScreen('screen3.png')"><img src="screen3.png" alt="Nova Chat" style="width:100%;display:block;"/></div>
+    <div class="phone screen-thumb" style="width:min(150px,30vw); border-radius:28px; cursor:pointer;" onclick="openScreen('screen-home.png')"><img src="screen-home.png" alt="Home" style="width:100%;display:block;"/></div>
+    <div class="phone screen-thumb" style="width:min(150px,30vw); border-radius:28px; cursor:pointer;" onclick="openScreen('screen-workout.png')"><img src="screen-workout.png" alt="Workout" style="width:100%;display:block;"/></div>
+    <div class="phone screen-thumb" style="width:min(150px,30vw); border-radius:28px; cursor:pointer;" onclick="openScreen('screen-complete.png')"><img src="screen-complete.png" alt="Workout Complete" style="width:100%;display:block;"/></div>
+    <div class="phone screen-thumb" style="width:min(150px,30vw); border-radius:28px; cursor:pointer;" onclick="openScreen('screen4.png')"><img src="screen4.png" alt="Profile" style="width:100%;display:block;"/></div>
+    <div class="phone screen-thumb" style="width:min(150px,30vw); border-radius:28px; cursor:pointer;" onclick="openScreen('screen2.png')"><img src="screen2.png" alt="My Plan" style="width:100%;display:block;"/></div>
   </div>
+  <p style="color:var(--gray); font-size:13px; margin-top:20px; font-weight:400;">Tap any screen to enlarge</p>
 </div>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); z-index:999; align-items:center; justify-content:center; backdrop-filter:blur(10px);" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" style="max-height:90vh; max-width:90vw; border-radius:32px; box-shadow:0 40px 100px rgba(0,0,0,0.8);"/>
+</div>
+
+<script>
+function openScreen(src) {
+  document.getElementById('lightbox-img').src = src;
+  const lb = document.getElementById('lightbox');
+  lb.style.display = 'flex';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').style.display = 'none';
+}
+</script>
 
 <footer>
   <div class="footer-logo">
