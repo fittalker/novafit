@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Privacy Policy — NovaFit</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg: #08080f;
+    --purple: #7C3AED;
+    --purple-light: #9F67FF;
+    --white: #f0f0f5;
+    --gray: #6b6b80;
+    --card: #12121f;
+    --border: rgba(124,58,237,0.25);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--white); font-family: 'Poppins', sans-serif; line-height: 1.8; }
+
+  nav {
+    padding: 18px 48px; display: flex; align-items: center; justify-content: space-between;
+    background: rgba(8,8,15,0.9); border-bottom: 1px solid rgba(255,255,255,0.05);
+    position: sticky; top: 0; z-index: 100;
+  }
+  .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; font-size: 20px; font-weight: 800; }
+  .nav-logo img { width: 32px; height: 32px; border-radius: 8px; }
+  .nav-back { color: var(--purple-light); text-decoration: none; font-size: 14px; font-weight: 500; }
+  .nav-back:hover { color: var(--white); }
+
+  .container { max-width: 800px; margin: 0 auto; padding: 60px 24px 80px; }
+
+  .hero { text-align: center; margin-bottom: 56px; }
+  .hero-tag { font-size: 11px; font-weight: 700; letter-spacing: 2px; color: var(--purple-light); text-transform: uppercase; display: block; margin-bottom: 16px; }
+  .hero h1 { font-size: 40px; font-weight: 900; letter-spacing: -1.5px; margin-bottom: 12px; }
+  .hero p { color: var(--gray); font-size: 14px; }
+
+  .toc { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 28px; margin-bottom: 40px; }
+  .toc h3 { font-size: 14px; font-weight: 700; color: var(--purple-light); margin-bottom: 16px; letter-spacing: 1px; text-transform: uppercase; }
+  .toc ol { padding-left: 20px; color: var(--gray); font-size: 13px; }
+  .toc ol li { margin-bottom: 6px; }
+  .toc ol li a { color: var(--gray); text-decoration: none; transition: color 0.2s; }
+  .toc ol li a:hover { color: var(--purple-light); }
+
+  .section { margin-bottom: 32px; background: var(--card); border: 1px solid rgba(255,255,255,0.05); border-radius: 20px; padding: 32px; }
+  .section h2 { font-size: 19px; font-weight: 700; margin-bottom: 16px; color: var(--white); display: flex; align-items: center; gap: 10px; }
+  .section h2::before { content: ''; width: 3px; height: 22px; background: var(--purple); border-radius: 2px; display: inline-block; flex-shrink: 0; }
+  .section h3 { font-size: 15px; font-weight: 600; color: var(--white); margin: 20px 0 8px; }
+  .section p { color: var(--gray); font-size: 14px; font-weight: 400; margin-bottom: 12px; }
+  .section p:last-child { margin-bottom: 0; }
+  .section ul, .section ol { color: var(--gray); font-size: 14px; padding-left: 22px; margin-bottom: 12px; }
+  .section ul li, .section ol li { margin-bottom: 8px; }
+  .section a { color: var(--purple-light); text-decoration: none; }
+  .section a:hover { text-decoration: underline; }
+
+  .highlight { background: rgba(124,58,237,0.08); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
+  .highlight p { color: var(--white); font-size: 13px; margin: 0; }
+
+  footer { text-align: center; padding: 40px 24px; border-top: 1px solid rgba(255,255,255,0.05); color: var(--gray); font-size: 12px; }
+  footer a { color: var(--purple-light); text-decoration: none; }
+
+  @media (max-width: 600px) {
+    nav { padding: 16px 20px; }
+    .hero h1 { font-size: 28px; }
+    .section { padding: 24px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img src="icon.png" alt="NovaFit"/>
+    <span style="color:#f0f0f5">Nova</span><span style="color:#9F67FF">Fit</span>
+  </a>
+  <a href="index.html" class="nav-back">← Back to home</a>
+</nav>
+
+<div class="container">
+  <div class="hero">
+    <span class="hero-tag">Legal</span>
+    <h1>Privacy Policy</h1>
+    <p>Effective date: April 1, 2026 &nbsp;·&nbsp; Last updated: April 1, 2026</p>
+  </div>
+
+  <div class="toc">
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#who">Who We Are</a></li>
+      <li><a href="#collect">Information We Collect</a></li>
+      <li><a href="#how">How We Use Your Information</a></li>
+      <li><a href="#ai">AI Coach — Nova and OpenAI</a></li>
+      <li><a href="#storage">Data Storage and Security</a></li>
+      <li><a href="#sharing">Data Sharing and Third Parties</a></li>
+      <li><a href="#notifications">Notifications</a></li>
+      <li><a href="#rights">Your Rights and Choices</a></li>
+      <li><a href="#deletion">Data Deletion</a></li>
+      <li><a href="#children">Children's Privacy</a></li>
+      <li><a href="#international">International Users</a></li>
+      <li><a href="#changes">Changes to This Policy</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ol>
+  </div>
+
+  <div class="section" id="intro">
+    <h2>1. Introduction</h2>
+    <p>Welcome to NovaFit. This Privacy Policy describes how MasFit Solutions ("we," "us," or "our") collects, uses, stores, and protects information about you when you use the NovaFit mobile application (the "App") available on iOS.</p>
+    <p>We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this policy or our practices with regard to your personal information, please contact us at <a href="mailto:masfitsolutions@gmail.com">masfitsolutions@gmail.com</a>.</p>
+    <p>Please read this Privacy Policy carefully before using our App. By downloading, installing, or using NovaFit, you agree to the terms of this Privacy Policy. If you do not agree with the terms of this Privacy Policy, please do not use the App.</p>
+    <div class="highlight">
+      <p>In plain English: We built NovaFit to help you build better gym habits. We only collect what's necessary to make the app work and your coach smarter. We don't sell your data. Ever.</p>
+    </div>
+  </div>
+
+  <div class="section" id="who">
+    <h2>2. Who We Are</h2>
+    <p>NovaFit is developed and operated by MasFit Solutions, an independent app developer based in India. We are a small team building tools to help people build consistent fitness habits.</p>
+    <p>For any privacy-related inquiries, you can reach us at:</p>
+    <ul>
+      <li>Email: <a href="mailto:masfitsolutions@gmail.com">masfitsolutions@gmail.com</a></li>
+      <li>App: NovaFit - Fitness Training</li>
+      <li>Platform: iOS (Apple App Store)</li>
+    </ul>
+  </div>
+
+  <div class="section" id="collect">
+    <h2>3. Information We Collect</h2>
+    <p>We collect information that you provide directly to us when you set up and use the App. We do not collect information automatically through cookies, trackers, or analytics SDKs in the current version of the App.</p>
+
+    <h3>3.1 Information You Provide During Onboarding</h3>
+    <ul>
+      <li>Display name and username</li>
+      <li>Gender (optional)</li>
+      <li>Height and weight</li>
+      <li>Fitness goals and focus muscle groups</li>
+      <li>Number of training days per week</li>
+      <li>Preferred workout location (gym or home)</li>
+    </ul>
+
+    <h3>3.2 Information Generated During App Use</h3>
+    <ul>
+      <li>Workout completion logs and dates</li>
+      <li>Exercise sets completed per session</li>
+      <li>Streak data (current streak, longest streak, broken streaks)</li>
+      <li>XP and level progression</li>
+      <li>Achievements unlocked</li>
+      <li>Weekly workout attendance records</li>
+      <li>Custom workout plan configuration</li>
+    </ul>
+
+    <h3>3.3 Nutrition Information</h3>
+    <ul>
+      <li>Meals and foods you log via Nova chat</li>
+      <li>Daily calorie and macro totals</li>
+      <li>Calorie burn estimates from workouts</li>
+      <li>All-time caloric balance data</li>
+    </ul>
+
+    <h3>3.4 Nova Chat Messages</h3>
+    <p>When you interact with Nova, your chat messages are processed to generate AI responses. This is explained in detail in Section 5.</p>
+
+    <h3>3.5 Device Permissions</h3>
+    <ul>
+      <li>Push notification permission (optional, requested with explanation)</li>
+      <li>Photo library access (only if you use progress photo features, when available)</li>
+    </ul>
+  </div>
+
+  <div class="section" id="how">
+    <h2>4. How We Use Your Information</h2>
+    <p>We use the information we collect for the following purposes:</p>
+
+    <h3>4.1 Core App Functionality</h3>
+    <ul>
+      <li>To build and display personalized workout plans based on your training days, location, and focus muscles</li>
+      <li>To track and display your workout streaks and history</li>
+      <li>To calculate weekly set volumes and progress toward muscle targets</li>
+      <li>To award XP and level up your in-app profile</li>
+      <li>To unlock achievements based on your real activity</li>
+    </ul>
+
+    <h3>4.2 Nova AI Coach</h3>
+    <ul>
+      <li>To provide context to Nova so she can give personalized coaching responses</li>
+      <li>To log nutrition information when you tell Nova what you ate</li>
+      <li>To allow Nova to suggest exercise swaps based on your workout plan</li>
+      <li>To let Nova update your profile settings on your behalf when instructed</li>
+    </ul>
+
+    <h3>4.3 Notifications</h3>
+    <ul>
+      <li>To send workout reminders at your preferred time</li>
+      <li>To alert you when your streak is at risk</li>
+      <li>To notify you when you unlock achievements or level up</li>
+    </ul>
+
+    <h3>4.4 App Improvement</h3>
+    <p>In future versions of the App, we may collect anonymized, aggregated usage data to understand how users interact with the App and improve the experience. We will update this policy before doing so and will always give you the ability to opt out.</p>
+  </div>
+
+  <div class="section" id="ai">
+    <h2>5. AI Coach — Nova and OpenAI</h2>
+    <p>Nova is NovaFit's AI-powered fitness coach. She is powered by OpenAI's GPT-4 language model. This section explains exactly what happens when you chat with Nova.</p>
+
+    <h3>5.1 What Data Is Sent to OpenAI</h3>
+    <p>When you send a message to Nova, the following information is included in the request sent to OpenAI's API:</p>
+    <ul>
+      <li>Your message text</li>
+      <li>Your display name</li>
+      <li>Your current streak count</li>
+      <li>Today's workout and recent workout history</li>
+      <li>Today's nutrition totals</li>
+      <li>Your height, weight, and training setup</li>
+      <li>Your focus muscles and training schedule</li>
+    </ul>
+    <p>This context is necessary for Nova to provide personalized, relevant coaching responses rather than generic advice.</p>
+
+    <h3>5.2 OpenAI's Data Practices</h3>
+    <p>OpenAI processes the data we send according to their own privacy policy and terms of service. We encourage you to review <a href="https://openai.com/privacy" target="_blank">OpenAI's Privacy Policy</a> to understand how they handle data. As of the date of this policy, OpenAI does not use API data to train their models by default.</p>
+
+    <h3>5.3 Nova's Limitations</h3>
+    <p>Nova is an AI assistant and her responses may not always be accurate, medically sound, or appropriate for your specific health condition. Nova's responses should not be considered medical or professional fitness advice. Always consult a qualified professional before making significant changes to your diet or exercise routine.</p>
+
+    <div class="highlight">
+      <p>Nova is AI-powered and can make mistakes. Use her guidance as a starting point, not a substitute for professional advice.</p>
+    </div>
+
+    <h3>5.4 Harmful Content</h3>
+    <p>We have implemented filters to prevent Nova from responding to messages related to self-harm, eating disorders, or other harmful topics. If such content is detected, Nova will respond with a safe, supportive message and encourage you to seek professional help.</p>
+  </div>
+
+  <div class="section" id="storage">
+    <h2>6. Data Storage and Security</h2>
+
+    <h3>6.1 Local Storage</h3>
+    <p>All your personal data — including your profile, workout history, streak data, nutrition logs, and achievements — is stored locally on your device using Apple's AsyncStorage. This means your data lives on your phone, not on our servers.</p>
+
+    <h3>6.2 No Backend Servers (Current Version)</h3>
+    <p>In the current version of NovaFit, we do not operate backend servers that store your personal data. The only external service your data touches is OpenAI's API when you use Nova chat, as described in Section 5.</p>
+    <p>Future versions of the App may introduce cloud backup and account sync features. We will update this Privacy Policy before introducing any server-side data storage and will give you full control over whether to opt in.</p>
+
+    <h3>6.3 Data Security</h3>
+    <p>While we implement reasonable measures to protect your information, please be aware that no method of local storage on a mobile device is 100% secure. We recommend keeping your device protected with a passcode or biometric lock.</p>
+
+    <h3>6.4 Data Retention</h3>
+    <p>Your data is retained on your device for as long as you use the App. If you uninstall the App, all locally stored data is permanently deleted by the operating system. You can also manually delete all data at any time from within the App (see Section 10).</p>
+  </div>
+
+  <div class="section" id="sharing">
+    <h2>7. Data Sharing and Third Parties</h2>
+    <p>We do not sell, trade, or rent your personal information to any third parties. We do not share your data with advertisers. The only third party that receives any of your data is OpenAI, as described in Section 5, and only for the purpose of powering Nova's AI responses.</p>
+
+    <h3>7.1 Third Party Services Used</h3>
+    <ul>
+      <li><strong>OpenAI API</strong> — for Nova AI responses. <a href="https://openai.com/privacy" target="_blank">Privacy Policy</a></li>
+      <li><strong>Expo (by Meta)</strong> — the framework used to build the App. Expo may collect limited diagnostic data. <a href="https://expo.dev/privacy" target="_blank">Privacy Policy</a></li>
+      <li><strong>wger API</strong> — for exercise images. This is a public API and no personal data is sent to it.</li>
+    </ul>
+
+    <h3>7.2 Legal Requirements</h3>
+    <p>We may disclose your information if required to do so by law or in response to valid requests by public authorities (such as a court or government agency). We will notify you of such requests where legally permitted to do so.</p>
+
+    <h3>7.3 Business Transfers</h3>
+    <p>If we are involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction. We will notify you via a prominent notice within the App before your information becomes subject to a different privacy policy.</p>
+  </div>
+
+  <div class="section" id="notifications">
+    <h2>8. Notifications</h2>
+    <p>NovaFit may send you push notifications to support your fitness journey. We will always ask for your permission before sending notifications and will show you a clear explanation of what types of notifications we send before the system permission dialog appears.</p>
+
+    <h3>8.1 Types of Notifications We Send</h3>
+    <ul>
+      <li>Daily workout reminders at your preferred time</li>
+      <li>Streak protection alerts when your streak is at risk of breaking</li>
+      <li>Achievement unlock notifications</li>
+      <li>Level up notifications</li>
+      <li>Weekly summary notifications</li>
+      <li>Calorie logging reminders</li>
+    </ul>
+
+    <h3>8.2 Managing Notifications</h3>
+    <p>You can enable or disable notifications at any time through your iPhone's Settings app under Notifications → NovaFit. You can also choose which types of notifications to receive. Disabling notifications will not affect your ability to use any core features of the App.</p>
+
+    <h3>8.3 No Marketing Notifications</h3>
+    <p>We will never send you promotional, marketing, or advertising notifications without your explicit and separate consent. All notifications in the current version of NovaFit are purely fitness-related and functional.</p>
+  </div>
+
+  <div class="section" id="rights">
+    <h2>9. Your Rights and Choices</h2>
+    <p>Depending on your location, you may have certain rights regarding your personal information. We respect these rights for all users regardless of location.</p>
+
+    <h3>9.1 Right to Access</h3>
+    <p>You can view all the data stored in the App at any time through your Profile screen, Progress screen, and workout history.</p>
+
+    <h3>9.2 Right to Correction</h3>
+    <p>You can update your profile information (name, height, weight, training setup) at any time through the Profile screen or by asking Nova to update it for you.</p>
+
+    <h3>9.3 Right to Deletion</h3>
+    <p>You can delete all your data at any time. See Section 10 for details.</p>
+
+    <h3>9.4 Right to Opt Out of AI Processing</h3>
+    <p>If you do not wish your messages to be processed by OpenAI, you can simply choose not to use the Nova chat feature. All other features of the App (workout tracking, streaks, XP, progress) work without Nova and without any data being sent to OpenAI.</p>
+
+    <h3>9.5 Notification Opt-Out</h3>
+    <p>You can opt out of notifications at any time through your device settings as described in Section 8.2.</p>
+  </div>
+
+  <div class="section" id="deletion">
+    <h2>10. Data Deletion</h2>
+    <p>You have full control over your data and can delete everything at any time.</p>
+
+    <h3>10.1 Delete All Data In-App</h3>
+    <p>To delete all your data from within NovaFit:</p>
+    <ol>
+      <li>Open the App and go to your Profile screen</li>
+      <li>Scroll to the bottom and tap "Delete All My Data"</li>
+      <li>Confirm the deletion in the alert dialog</li>
+      <li>All locally stored data will be permanently and immediately deleted</li>
+    </ol>
+    <p>This action is irreversible. All your profile data, workout history, streak records, nutrition logs, XP, achievements, and settings will be permanently removed.</p>
+
+    <h3>10.2 Delete by Uninstalling</h3>
+    <p>Uninstalling the NovaFit app from your iPhone will also permanently delete all locally stored data.</p>
+
+    <h3>10.3 OpenAI Data Deletion</h3>
+    <p>To request deletion of data that may have been processed by OpenAI, please refer to <a href="https://openai.com/privacy" target="_blank">OpenAI's Privacy Policy</a> and their data deletion request process.</p>
+
+    <h3>10.4 Contact Us for Deletion Requests</h3>
+    <p>If you have any questions about data deletion or would like to submit a formal deletion request, please contact us at <a href="mailto:masfitsolutions@gmail.com">masfitsolutions@gmail.com</a>. We will respond within 30 days.</p>
+  </div>
+
+  <div class="section" id="children">
+    <h2>11. Children's Privacy</h2>
+    <p>NovaFit is not directed to children under the age of 13, and we do not knowingly collect personal information from children under 13. The App is intended for users who are at least 13 years of age. Users between 13 and 18 should use the App only with the knowledge and consent of a parent or guardian.</p>
+    <p>If we become aware that we have inadvertently collected personal information from a child under 13, we will take immediate steps to delete that information. If you believe we may have collected information from a child under 13, please contact us immediately at <a href="mailto:masfitsolutions@gmail.com">masfitsolutions@gmail.com</a>.</p>
+  </div>
+
+  <div class="section" id="international">
+    <h2>12. International Users</h2>
+    <p>NovaFit is developed in India and is currently targeted primarily at Indian users, with global availability planned. If you access the App from outside India, please be aware that your information may be processed in India and in the United States (where OpenAI's servers are located), which may have different data protection laws than your country.</p>
+    <p>By using NovaFit, you consent to the transfer of your information to these locations. We take steps to ensure that your data is handled in accordance with this Privacy Policy regardless of where it is processed.</p>
+
+    <h3>12.1 GDPR (European Users)</h3>
+    <p>If you are located in the European Economic Area (EEA), you have additional rights under the General Data Protection Regulation (GDPR). Our legal basis for processing your data is your consent, which you provide by using the App. You have the right to access, rectify, port, and erase your data, and to object to or restrict certain processing. To exercise these rights, please contact us at <a href="mailto:masfitsolutions@gmail.com">masfitsolutions@gmail.com</a>.</p>
+
+    <h3>12.2 California Users (CCPA)</h3>
+    <p>If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA). We do not sell personal information. You have the right to know what personal information we collect, to delete your personal information, and to opt out of sale (which we do not engage in). To exercise your rights, contact us at <a href="mailto:masfitsolutions@gmail.com">masfitsolutions@gmail.com</a>.</p>
+  </div>
+
+  <div class="section" id="changes">
+    <h2>13. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or for other operational reasons. When we make significant changes, we will:</p>
+    <ul>
+      <li>Update the "Last updated" date at the top of this page</li>
+      <li>Notify you via a prominent in-app notification or alert</li>
+      <li>In some cases, ask for your renewed consent if the changes are material</li>
+    </ul>
+    <p>We encourage you to review this Privacy Policy periodically to stay informed about how we are protecting your information. Your continued use of the App after any changes to this Privacy Policy constitutes your acceptance of the updated terms.</p>
+    <p>Previous versions of this Privacy Policy are available upon request by contacting us at <a href="mailto:masfitsolutions@gmail.com">masfitsolutions@gmail.com</a>.</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>14. Contact Us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please do not hesitate to contact us. We take all privacy inquiries seriously and will respond within 30 days.</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:masfitsolutions@gmail.com">masfitsolutions@gmail.com</a></li>
+      <li><strong>App Name:</strong> NovaFit - Fitness Training</li>
+      <li><strong>Developer:</strong> MasFit Solutions</li>
+      <li><strong>Country:</strong> India</li>
+    </ul>
+    <p>For urgent privacy matters, please include "PRIVACY URGENT" in the subject line of your email and we will prioritize your request.</p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 NovaFit · MasFit Solutions · <a href="index.html">Home</a> · <a href="mailto:masfitsolutions@gmail.com">Contact</a></p>
+</footer>
+
+</body>
+</html>
