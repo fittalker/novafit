@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaFit Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+
+    .brand {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #4ade80;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #888;
+      margin-bottom: 48px;
+    }
+
+    .contact-card {
+      background: #141414;
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 40px;
+    }
+
+    .contact-card h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .contact-card p {
+      color: #999;
+      font-size: 15px;
+      margin-bottom: 16px;
+    }
+
+    .contact-card a {
+      color: #4ade80;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    .contact-card a:hover {
+      text-decoration: underline;
+    }
+
+    .response-note {
+      display: inline-block;
+      background: #1a2e1a;
+      color: #4ade80;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 6px 12px;
+      border-radius: 6px;
+      margin-top: 12px;
+    }
+
+    .section-label {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #4ade80;
+      margin-bottom: 20px;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #1a1a1a;
+      padding: 20px 0;
+    }
+
+    .faq-item:first-of-type {
+      border-top: 1px solid #1a1a1a;
+    }
+
+    .faq-item h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .faq-item p {
+      font-size: 15px;
+      color: #999;
+      line-height: 1.6;
+    }
+
+    .footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #1a1a1a;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .footer a {
+      color: #666;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand">NovaFit</div>
+    <h1>Support</h1>
+    <p class="subtitle">Got a question or running into an issue? We're here to help.</p>
+
+    <div class="contact-card">
+      <h2>Get in Touch</h2>
+      <p>Reach out to us for any questions, bug reports, or feedback about NovaFit.</p>
+      <a href="mailto:masfitsolutions@gmail.com">masfitsolutions@gmail.com</a>
+      <div class="response-note">We typically respond within 24 hours</div>
+    </div>
+
+    <div class="section-label">Frequently Asked Questions</div>
+
+    <div class="faq-item">
+      <h3>What is Nova, the AI coach?</h3>
+      <p>Nova is your personal AI fitness coach inside NovaFit. It provides workout recommendations, nutrition guidance, and motivation throughout your 180-day transformation. All of Nova's advice is based on established guidelines from organizations like ACSM, NSCA, and WHO.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How does the 180-day program work?</h3>
+      <p>The program is structured into challenge-gated phases. You progress by completing workouts, hitting calorie targets, and maintaining streaks. Each phase unlocks new routines and challenges tailored to your fitness level.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How are my calories and workouts calculated?</h3>
+      <p>NovaFit uses the Mifflin-St Jeor equation to estimate your daily maintenance calories based on your age, weight, height, and activity level. Workout plans are built using evidence-based guidelines from ACSM and NSCA. You can find detailed sources on our <a href="sources.html">Sources & Citations</a> page.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is my data safe?</h3>
+      <p>Yes. Your personal data stays on your device and our secure servers. We do not sell or share your information with third parties. Review our full Privacy Policy for details.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I cancel or manage my purchase?</h3>
+      <p>NovaFit uses a one-time purchase model through the App Store. If you need a refund, you can request one through Apple's standard refund process in your purchase history.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>The app isn't working properly. What should I do?</h3>
+      <p>Try closing and reopening the app, or restarting your device. If the issue persists, email us at <a href="mailto:masfitsolutions@gmail.com">masfitsolutions@gmail.com</a> with a description of the problem and your device model. Screenshots help us diagnose faster.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I use NovaFit if I have a medical condition?</h3>
+      <p>NovaFit provides general fitness guidance and is not a substitute for professional medical advice. If you have a medical condition or injury, consult your healthcare provider before starting any fitness program.</p>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2026 NovaFit. All rights reserved. &nbsp;|&nbsp; <a href="sources.html">Sources & Citations</a></p>
+    </div>
+  </div>
+</body>
+</html>
