@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaFit - Sources & Citations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: #0D0D0D;
+      color: #E8E8E8;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 680px; margin: 0 auto; padding: 60px 24px 80px; }
+    .logo { font-size: 15px; font-weight: 700; letter-spacing: 0.04em; color: #7BE87B; text-transform: uppercase; margin-bottom: 48px; }
+    .logo a { color: inherit; text-decoration: none; }
+    h1 { font-size: 32px; font-weight: 700; color: #fff; margin-bottom: 12px; }
+    .subtitle { font-size: 17px; color: #999; margin-bottom: 48px; }
+    p { font-size: 16px; color: #BCBCBC; margin-bottom: 16px; }
+    a { color: #7BE87B; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .source-card {
+      background: #1A1A1A;
+      border: 1px solid #2A2A2A;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 12px;
+    }
+    .source-card .source-name {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .source-card .source-detail {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 0;
+    }
+    .source-card .source-detail + .source-detail {
+      margin-top: 8px;
+    }
+    .source-card .source-detail a { color: #7BE87B; }
+
+    .category-label {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #7BE87B;
+      margin-bottom: 16px;
+      margin-top: 40px;
+      display: block;
+    }
+
+    .divider { height: 1px; background: #1F1F1F; margin: 48px 0; }
+
+    .disclaimer {
+      background: #1A1A1A;
+      border: 1px solid #2A2A2A;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 48px;
+    }
+    .disclaimer .label {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #E8C547;
+      margin-bottom: 8px;
+    }
+    .disclaimer p { font-size: 14px; color: #999; margin-bottom: 0; }
+
+    .footer { font-size: 14px; color: #555; margin-top: 48px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo"><a href="support.html">NovaFit</a></div>
+
+    <h1>Sources &amp; Citations</h1>
+    <p class="subtitle">Where NovaFit gets its information. Every recommendation Nova makes is grounded in the following established guidelines and peer-reviewed research.</p>
+
+    <!-- CALORIE CALCULATIONS -->
+    <span class="category-label">Daily Maintenance Calories</span>
+
+    <div class="source-card">
+      <div class="source-name">Mifflin-St Jeor Equation</div>
+      <p class="source-detail">Used to estimate Basal Metabolic Rate (BMR). Widely considered the most accurate predictive equation for estimating resting metabolic rate in healthy individuals.</p>
+      <p class="source-detail">Mifflin MD, St Jeor ST, et al. "A new predictive equation for resting energy expenditure in healthy individuals." <em>American Journal of Clinical Nutrition</em>, 1990. <a href="https://pubmed.ncbi.nlm.nih.gov/2305711/" target="_blank" rel="noopener">PubMed</a></p>
+    </div>
+
+    <div class="source-card">
+      <div class="source-name">Harris-Benedict Equation (Revised)</div>
+      <p class="source-detail">Used as a secondary reference for BMR estimation and activity multiplier calculations.</p>
+      <p class="source-detail">Roza AM, Shizgal HM. "The Harris Benedict equation reevaluated." <em>American Journal of Clinical Nutrition</em>, 1984. <a href="https://pubmed.ncbi.nlm.nih.gov/6741850/" target="_blank" rel="noopener">PubMed</a></p>
+    </div>
+
+    <!-- WORKOUT ROUTINES -->
+    <span class="category-label">Workout Routines &amp; Programming</span>
+
+    <div class="source-card">
+      <div class="source-name">ACSM Guidelines for Exercise Testing and Prescription</div>
+      <p class="source-detail">The foundation for NovaFit's workout programming, including rep ranges, set volumes, rest periods, and progressive overload structures.</p>
+      <p class="source-detail">American College of Sports Medicine. <em>ACSM's Guidelines for Exercise Testing and Prescription</em>, 11th Edition. <a href="https://www.acsm.org/" target="_blank" rel="noopener">acsm.org</a></p>
+    </div>
+
+    <div class="source-card">
+      <div class="source-name">NSCA Essentials of Strength Training and Conditioning</div>
+      <p class="source-detail">Referenced for exercise selection, movement mechanics, training frequency, and periodization principles used in the 180-day program.</p>
+      <p class="source-detail">National Strength and Conditioning Association. <em>Essentials of Strength Training and Conditioning</em>, 4th Edition. <a href="https://www.nsca.com/" target="_blank" rel="noopener">nsca.com</a></p>
+    </div>
+
+    <!-- REST & RECOVERY -->
+    <span class="category-label">Rest Days &amp; Recovery</span>
+
+    <div class="source-card">
+      <div class="source-name">ACSM Position Stand on Progression Models</div>
+      <p class="source-detail">Guides NovaFit's rest day scheduling and recovery recommendations, including minimum recovery periods between resistance training sessions for the same muscle groups.</p>
+      <p class="source-detail">ACSM. "Progression Models in Resistance Training for Healthy Adults." <em>Medicine &amp; Science in Sports &amp; Exercise</em>, 2009. <a href="https://pubmed.ncbi.nlm.nih.gov/19204579/" target="_blank" rel="noopener">PubMed</a></p>
+    </div>
+
+    <!-- DIETARY INFO -->
+    <span class="category-label">Dietary &amp; Nutrition Information</span>
+
+    <div class="source-card">
+      <div class="source-name">WHO Healthy Diet Guidelines</div>
+      <p class="source-detail">Referenced for general dietary recommendations, macronutrient balance, and daily intake guidelines.</p>
+      <p class="source-detail">World Health Organization. "Healthy Diet Fact Sheet." <a href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet" target="_blank" rel="noopener">who.int</a></p>
+    </div>
+
+    <div class="source-card">
+      <div class="source-name">ISSN Position Stand on Protein and Exercise</div>
+      <p class="source-detail">The basis for NovaFit's protein intake recommendations relative to body weight and training goals.</p>
+      <p class="source-detail">Jager R, et al. "International Society of Sports Nutrition Position Stand: protein and exercise." <em>Journal of the International Society of Sports Nutrition</em>, 2017. <a href="https://pubmed.ncbi.nlm.nih.gov/28642676/" target="_blank" rel="noopener">PubMed</a></p>
+    </div>
+
+    <div class="source-card">
+      <div class="source-name">ISSN Position Stand on Diets and Body Composition</div>
+      <p class="source-detail">Referenced for guidance on caloric deficits, surplus ranges, and macronutrient distribution for body recomposition.</p>
+      <p class="source-detail">Aragon AA, et al. "International society of sports nutrition position stand: diets and body composition." <em>JISSN</em>, 2017. <a href="https://pubmed.ncbi.nlm.nih.gov/28630601/" target="_blank" rel="noopener">PubMed</a></p>
+    </div>
+
+    <!-- PHYSICAL ACTIVITY -->
+    <span class="category-label">Physical Activity Guidelines</span>
+
+    <div class="source-card">
+      <div class="source-name">WHO Physical Activity Guidelines</div>
+      <p class="source-detail">Used to frame minimum activity thresholds and weekly exercise volume recommendations within the app.</p>
+      <p class="source-detail">World Health Organization. "WHO guidelines on physical activity and sedentary behaviour." 2020. <a href="https://www.who.int/publications/i/item/9789240015128" target="_blank" rel="noopener">who.int</a></p>
+    </div>
+
+    <!-- AI COACH -->
+    <span class="category-label">Nova AI Coach</span>
+
+    <div class="source-card">
+      <div class="source-name">How Nova generates recommendations</div>
+      <p class="source-detail">Nova's responses are generated using a large language model that has been instructed to ground its fitness and nutrition advice in the guidelines and research listed on this page. Nova is designed to provide general fitness guidance and motivation. It does not diagnose medical conditions, prescribe treatments, or replace professional advice from a certified trainer, dietitian, or physician.</p>
+    </div>
+
+    <!-- STREAKS -->
+    <span class="category-label">Streaks &amp; Consistency</span>
+
+    <div class="source-card">
+      <div class="source-name">Habit Formation Research</div>
+      <p class="source-detail">NovaFit's streak and XP systems are informed by behavioral science research on habit formation and consistency.</p>
+      <p class="source-detail">Lally P, et al. "How are habits formed: Modelling habit formation in the real world." <em>European Journal of Social Psychology</em>, 2010. <a href="https://pubmed.ncbi.nlm.nih.gov/21577332/" target="_blank" rel="noopener">PubMed</a></p>
+    </div>
+
+    <div class="disclaimer">
+      <div class="label">Important</div>
+      <p>NovaFit is a fitness companion, not a medical device. The information provided in this app is for general educational and motivational purposes only. Always consult a qualified healthcare professional before beginning any new exercise or nutrition program, especially if you have pre-existing health conditions.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <p>Have questions about our sources? Email us at <a href="mailto:marketing@slingmedia.co.in">marketing@slingmedia.co.in</a>.</p>
+
+    <div class="footer">&copy; 2026 NovaFit. All rights reserved.</div>
+  </div>
+</body>
+</html>
